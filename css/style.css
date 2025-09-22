@@ -1,0 +1,41 @@
+/* ===================== */
+/* Body Styles           */
+/* ===================== */
+body {
+  margin: 0;               /* Remove default margin */
+  height: 100vh;           /* Full viewport height */
+  background-color: black;  /* Background color for contrast */
+  overflow: hidden;        /* Prevent scrollbars when hearts move off-screen */
+}
+
+/* ===================== */
+/* Heart Icon Span       */
+/* ===================== */
+span {
+  background: url("https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678087-heart-256.png"); /* Heart image */
+  width: 100px;            /* Width of heart */
+  height: 100px;           /* Height of heart */
+  position: absolute;      /* Position absolutely on the page */
+  background-size: cover;  /* Make sure the image covers the span fully */
+  left: 50%;               /* Start horizontally at the center */
+  top: 50%;                /* Start vertically at the center */
+  transform: translate(-50%, -50%); /* Center the span exactly */
+  animation: animate 6s linear;     /* Apply 'animate' keyframes over 6 seconds */
+}
+
+/* ===================== */
+/* Animation Keyframes   */
+/* ===================== */
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%); /* Initial position: center */
+    opacity: 1;                        /* Fully visible */
+    filter: hue-rotate(0);             /* Original color */
+  }
+  100% {
+    transform: translate(-50%, -5000%); /* Move far upwards */
+    opacity: 0;                          /* Fade out */
+    filter: hue-rotate(720deg);          /* Rotate hue for color effect */
+  }
+}
+

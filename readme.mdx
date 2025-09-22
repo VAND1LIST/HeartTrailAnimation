@@ -1,0 +1,117 @@
+# ❤️ Heart Trail Animation
+
+A fun, interactive webpage that generates floating heart icons wherever the user moves the mouse. Each heart appears at the cursor, grows/shrinks randomly, floats upward with a colorful hue rotation, and disappears after a few seconds.
+
+---
+
+## ✨ Features
+
+- Follows the **mouse movement** to create heart icons dynamically
+- Randomized **size** for each heart (0px – 100px)
+- **Animated floating effect**: hearts rise upward and fade out
+- **Colorful effect** using `hue-rotate` CSS filter
+- **Auto-removal** after 3 seconds to keep the DOM clean
+- Fully **responsive** and lightweight
+
+---
+
+## 📂 Project Structure
+
+```
+
+heart-trail-animation/
+│── index.html       # Main HTML file
+│── style.css        # Styles including heart animation
+│── script.js        # JavaScript for mouse trail logic
+└── README.md        # Project documentation
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/droidevs/HeartTrailAnimation.git
+````
+
+### 2. Open the Project
+
+Simply open `index.html` in your browser:
+
+```bash
+# macOS
+open index.html
+
+# Linux
+xdg-open index.html
+
+# Windows
+start index.html
+```
+
+### 3. Move your mouse across the page
+
+* Hearts will appear at your cursor location
+* Each heart floats upward, changes color, and disappears after 3 seconds
+
+---
+
+## 🎨 Technologies Used
+
+* **HTML5** – Page structure
+* **CSS3** – Styling, animations, and effects
+* **Vanilla JavaScript (ES6)** – Dynamic creation of heart elements and mouse tracking
+
+---
+
+## ⚡ Customization
+
+* Change the **heart image** by editing the `background` property in `style.css`:
+
+```css
+span {
+  background: url("HeartTrailAnimation.JPG");
+}
+```
+
+* Adjust **animation speed or distance** in the `@keyframes animate`:
+
+```css
+@keyframes animate {
+  0% { transform: translate(-50%, -50%); opacity: 1; filter: hue-rotate(0); }
+  100% { transform: translate(-50%, -5000%); opacity: 0; filter: hue-rotate(720deg); }
+}
+```
+
+* Change **heart lifespan** by modifying the `setTimeout` in `script.js`:
+
+```
+setTimeout(() => {
+  spanEl.remove();
+}, 3000); // 3000ms = 3 seconds
+```
+
+---
+
+## 📌 Roadmap / Improvements
+
+* [ ] Add **multiple heart shapes or icons**
+* [ ] Adjust **animation speed based on cursor velocity**
+* [ ] Add **trail effects like sparkles or particles**
+* [ ] Add **mobile touch support**
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [OUMOUS Mouad](https://github.com/droidevs)
+
+---
+
+## 📜 License
+
+This project is licensed under the **Apache 2.0 License**.
+You’re free to use, modify, and share this project.
